@@ -9,16 +9,73 @@ body {
   height: 100%;
   width: 100%;
 }
-#main{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    padding: 20px;
-    gap: 20px;
+
+#main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  gap: 30px;
+  flex-wrap: wrap;
 }
-.card{
-    height: 300px;
-    width: 200px;
-    background-color: tomato;
-    border-radius: 20px;
+
+.card {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 350px;
+  width: 280px;
+  background-color: rgba(119, 173, 218, 0.24);
+  border-radius: 20px;
+  box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  background-color: white;
+  cursor: pointer;
+
+}
+
+.card img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+  filter: brightness(85%) drop-shadow(0 0 10px #05050567);
+  cursor: pointer;
+}
+
+.card h4 {
+  font-size: 30px;
+  font-weight: 500px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #8d7d7d;
+  text-align: center;
+}
+
+.card button {
+  border-radius: 50px;
+  background-color: rgb(36, 182, 255);
+  padding: 10px 30px;
+  font-weight: 600px;
+  border: 2px solid rgb(36, 182, 255);
+  color: white;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: transparent;
+  color: rgb(36, 182, 255);
+  border-radius: 5px;
 }
