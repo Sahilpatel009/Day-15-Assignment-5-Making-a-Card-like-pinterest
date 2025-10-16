@@ -35,8 +35,9 @@ body {
 }
 
 .card:hover {
-  background-color: white;
+  background-color: rgba(65, 7, 112, 0.918);
   cursor: pointer;
+  color: white;
 
 }
 
@@ -75,7 +76,9 @@ body {
 }
 
 .card button:hover {
-  background-color: transparent;
-  color: rgb(36, 182, 255);
+  background-color: red;
+  /* color: rgb(36, 182, 255); */
+  color: white;
   border-radius: 5px;
+  border-color:tomato;
 }
