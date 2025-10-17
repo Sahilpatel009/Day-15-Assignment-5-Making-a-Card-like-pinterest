@@ -12,13 +12,13 @@ body {
 
 #main {
   display: flex;
-  height: 100%;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 70px;
   gap: 30px;
   flex-wrap: wrap;
+  background-color: black;
 }
 
 .card {
@@ -29,16 +29,15 @@ body {
   flex-direction: column;
   height: 350px;
   width: 280px;
-  background-color: rgba(119, 173, 218, 0.24);
+  background-color: rgb(241, 230, 230);
   border-radius: 20px;
   box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 .card:hover {
-  background-color: rgba(65, 7, 112, 0.918);
+  background-color: rgba(127, 43, 196, 0.918);
   cursor: pointer;
   color: white;
-
 }
 
 .card img {
@@ -61,7 +60,7 @@ body {
 
 .card p {
   font-size: 14px;
-  color: #8d7d7d;
+  color: #000000;
   text-align: center;
 }
 
@@ -80,5 +79,5 @@ body {
   /* color: rgb(36, 182, 255); */
   color: white;
   border-radius: 5px;
-  border-color:tomato;
+  border-color: tomato;
 }
